@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Grille.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|solutionrelative:Projet_combat\\Grille.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|solutionrelative:Projet_combat\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|solutionrelative:Projet_combat\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Des.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|solutionrelative:Projet_combat\\Des.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Astartes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|solutionrelative:Projet_combat\\Astartes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Demon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B60DE5F-4D9F-48F8-A61D-9DD52F6CAB06}|Projet_combat\\Projet_combat.vcxproj|solutionrelative:Projet_combat\\Demon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grille.h",
+              "DocumentMoniker": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Grille.h",
+              "RelativeDocumentMoniker": "Projet_combat\\Grille.h",
+              "ToolTip": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Grille.h",
+              "RelativeToolTip": "Projet_combat\\Grille.h",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwHUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-31T16:08:23.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Des.h",
+              "DocumentMoniker": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Des.h",
+              "RelativeDocumentMoniker": "Projet_combat\\Des.h",
+              "ToolTip": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Des.h",
+              "RelativeToolTip": "Projet_combat\\Des.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-31T13:46:02.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Demon.h",
+              "DocumentMoniker": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Demon.h",
+              "RelativeDocumentMoniker": "Projet_combat\\Demon.h",
+              "ToolTip": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Demon.h",
+              "RelativeToolTip": "Projet_combat\\Demon.h",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-31T13:45:09.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Astartes.h",
+              "DocumentMoniker": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Astartes.h",
+              "RelativeDocumentMoniker": "Projet_combat\\Astartes.h",
+              "ToolTip": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Astartes.h",
+              "RelativeToolTip": "Projet_combat\\Astartes.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-31T13:40:49.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Player.h",
+              "RelativeDocumentMoniker": "Projet_combat\\Player.h",
+              "ToolTip": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\Player.h",
+              "RelativeToolTip": "Projet_combat\\Player.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-31T13:25:39.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\main.cpp",
+              "RelativeDocumentMoniker": "Projet_combat\\main.cpp",
+              "ToolTip": "C:\\Users\\aniezgodzki\\source\\repos\\Projet_combat\\Projet_combat\\main.cpp",
+              "RelativeToolTip": "Projet_combat\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-31T13:25:15.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

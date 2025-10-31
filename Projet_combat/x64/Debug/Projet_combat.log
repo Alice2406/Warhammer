@@ -1,0 +1,5 @@
+﻿  Grille.cpp
+  main.cpp
+C:\Users\aniezgodzki\source\repos\Projet_combat\Projet_combat\main.cpp(10,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
+  Projet_combat.vcxproj -> C:\Users\aniezgodzki\source\repos\Projet_combat\x64\Debug\Projet_combat.exe

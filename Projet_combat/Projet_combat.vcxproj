@@ -123,12 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Astartes.cpp" />
-    <ClCompile Include="Demon.cpp" />
-    <ClCompile Include="Des.cpp" />
-    <ClCompile Include="Grille.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Astartes.h" />

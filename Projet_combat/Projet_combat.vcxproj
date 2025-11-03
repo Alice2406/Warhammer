@@ -123,9 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arme.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arme.h" />
     <ClInclude Include="Astartes.h" />
     <ClInclude Include="Demon.h" />
     <ClInclude Include="Des.h" />

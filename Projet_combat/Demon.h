@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <string>
+#include <chrono>
+#include <thread>
 #include "Player.h"
 #include "Des.h"
 
@@ -24,31 +26,78 @@ public:
 			return 0;
 	};
 
-    void attaquer(Player& cible) override {
-        cout << nom << " attaque " << cible.getNom() << " avec ses griffes demoniaques !" << endl;
+    void attaquer(Player& cible, int distance) override {
+        cout << nom << " rugit et attaque " << cible.getNom() << " avec ses griffes démoniaques !" << endl;
 
-        // Lancer des dés
-        d1.lancer();
-        d2.lancer();
-        d3.lancer();
+        int portee = 1; // le démon ne peut attaquer qu’à 1 case
+        if (distance > portee) {
+            cout << "La cible est trop loin ! (" << portee << " case max)" << endl;
+            return;
+        }
 
-        // Vérifier combien de dés touchent
-        int seuil = 4; // Par exemple, chaque dé touche si >= 4
-        int touche = 0;
-        touche += garder(&d1, seuil);
-        touche += garder(&d2, seuil);
-        touche += garder(&d3, seuil);
+        // Frames ASCII du démon pour l'animation
+        const string frames[][6] = {
+            {
+                "      (\\_._/)      ",
+                "      ( o_o )      ",
+                "      />   <\\     ",
+                "     /   |   \\    ",
+                "    (___/ \\___)   ",
+                "   Le demon surgit !"
+            },
+            {
+                "      (\\O_O/)      ",
+                "      (>   <)      ",
+                "      /  |  \\    ",
+                "     /   |   \\   ",
+                "    (___/ \\___)   ",
+                "   Le demon attaque !"
+            },
+            {
+                "      (\\_o_/)      ",
+                "      ( o_o )      ",
+                "      /|   |\\     ",
+                "     /   |   \\    ",
+                "    (___/ \\___)   ",
+                "   Le demon frappe !"
+            }
+        };
 
-        cout << "Des qui touchent : " << touche << " sur 3" << endl;
+        // Animation : on parcourt les frames
+        for (int i = 0; i < 3; ++i) {
+#ifdef _WIN32
+            system("cls");
+#else
+            system("clear");
+#endif
+            for (const auto& line : frames[i]) {
+                cout << line << endl;
+            }
+            this_thread::sleep_for(chrono::milliseconds(400));
+        }
 
-        // Infliger les dégâts pour chaque touche
-        int totalDegats = touche * Degats;
+        // Lancer les dés pour déterminer les touches
+        Des d1, d2, d3;
+        d1.lancer(); d2.lancer(); d3.lancer();
+
+        int seuil = 3; // plus facile de toucher qu’un Astartes
+        int touches = 0;
+
+        if (d1.getVal() >= seuil) touches++;
+        if (d2.getVal() >= seuil) touches++;
+        if (d3.getVal() >= seuil) touches++;
+
+        cout << "Touches reussies : " << touches << " sur 3" << endl;
+
+        int degatsParTouche = Degats; // hérité de Player
+        int totalDegats = touches * degatsParTouche;
+
         if (totalDegats > 0) {
-            cout << "Touché ! " << totalDegats << " degats infliges !" << endl;
+            cout << "Le demon frappe sauvagement ! " << totalDegats << " degats infliges !" << endl;
             cible.subirDegats(totalDegats);
         }
         else {
-            cout << "L'attaque echoue !" << std::endl;
+            cout << "Le demon rate son attaque !" << endl;
         }
     }
 };

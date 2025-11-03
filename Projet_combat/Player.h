@@ -19,7 +19,7 @@ public :
     string getNom() const {
         return nom;
     }
-    virtual void attaquer(Player& cible) = 0; 
+    virtual void attaquer(Player& cible, int distance) = 0; 
     bool estVivant() const { return Pv > 0; }
 
     void subirDegats(int montant) {

@@ -49,8 +49,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\sal.h",
               "ViewState": "AgIAACYJAAAAAAAAAAAYwDgJAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-03T10:18:03.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:18:03.231Z"
             },
             {
               "$type": "Document",
@@ -60,7 +59,7 @@
               "RelativeDocumentMoniker": "Projet_combat\\Grille.h",
               "ToolTip": "C:\\Users\\alice\\source\\repos\\Warhammer\\Projet_combat\\Grille.h",
               "RelativeToolTip": "Projet_combat\\Grille.h",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-31T16:08:23.61Z",
               "EditorCaption": ""
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Projet_combat\\Des.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-31T13:46:02.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T13:46:02.756Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "Projet_combat\\Astartes.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-31T13:40:49.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T13:40:49.172Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "Projet_combat\\Player.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-31T13:25:39.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T13:25:39.799Z"
             },
             {
               "$type": "Document",
@@ -124,7 +120,7 @@
               "RelativeDocumentMoniker": "Projet_combat\\main.cpp",
               "ToolTip": "C:\\Users\\alice\\source\\repos\\Warhammer\\Projet_combat\\main.cpp",
               "RelativeToolTip": "Projet_combat\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwFIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-31T13:25:15.906Z",
               "EditorCaption": ""

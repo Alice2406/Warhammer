@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void menuAstartes(Grille& plateau, Astartes& astartes, Demon& demon) {
+bool menuAstartes(Grille& plateau, Astartes& astartes, Demon& demon) {
     int choix;
     cout << "\n===== TOUR DE " << astartes.getNom() << " =====" << endl;
     cout << "1. Déplacer Astartes" << endl;
@@ -18,8 +18,8 @@ void menuAstartes(Grille& plateau, Astartes& astartes, Demon& demon) {
         int nx, ny;
         cout << "Nouvelle position x y : ";
         cin >> nx >> ny;
-        plateau.deplacerAstartes(nx, ny);
-        break;
+        bool reussi = plateau.deplacerAstartes(nx, ny);
+        return reussi;
     }
 
     case 2: {
@@ -35,20 +35,21 @@ void menuAstartes(Grille& plateau, Astartes& astartes, Demon& demon) {
             if (demon.estVivant() == false) {
                 cout << demon.getNom() << " est éliminé !" << endl;
             }
+            return true;
         }
         else {
             cout << "Le Démon est trop loin pour être attaqué !" << endl;
+            return false;
         }
-        break;
     }
 
     case 3:
         cout << astartes.getNom() << " reste immobile." << endl;
-        break;
+        return true;
 
     default:
         cout << "Choix invalide !" << endl;
-        break;
+        return false;
     }
 }
 
@@ -65,7 +66,7 @@ int main()
     plateau.placerUnite(7, 7, 'D');
     while (true) {
         plateau.afficherDeplacementsPossibles();
-        menuAstartes(plateau, spaceMarine, demon);  // Tour du joueur
+        bool actionValide = menuAstartes(plateau, spaceMarine, demon);  // Tour du joueur
 
         if (demon.estVivant() == false) {
             cout << "Victoire de l’Astartes !" << endl;
@@ -73,18 +74,29 @@ int main()
         }
 
         // Tour du démon
-        cout << "\n===== TOUR DU DEMON =====" << endl;
-        plateau.deplacerDemon(); // Déplacement automatique du démon
+        if (actionValide && demon.estVivant() == true) {
+            cout << "\n===== TOUR DU DEMON =====" << endl;
+            plateau.deplacerDemon();
 
-        int xA, yA, xD, yD;
-        plateau.placeAstartes(&xA, &yA);
-        plateau.placeDemon(&xD, &yD);
-        if (abs(xA - xD) + abs(yA - yD) == 1) {
-            demon.attaquer(spaceMarine);
-            if (spaceMarine.estVivant() == false) {
-                cout << "L’Astartes est tombé au combat !" << endl;
-                break;
+            int xA, yA, xD, yD;
+            plateau.placeAstartes(&xA, &yA);
+            plateau.placeDemon(&xD, &yD);
+
+            if (abs(xA - xD) + abs(yA - yD) == 1) {
+                demon.attaquer(spaceMarine);
+                if (spaceMarine.estVivant() == false) {
+                    cout << "L’Astartes est tombé au combat !" << endl;
+                    break;
+                }
             }
+        }
+        else {
+            cout << "\nAucune action valide — le Démon reste immobile." << endl;
+        }
+
+        if (demon.estVivant() == false) {
+            cout << "Victoire de l’Astartes !" << endl;
+            break;
         }
     }
     return 0;
